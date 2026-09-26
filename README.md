@@ -1,4 +1,4 @@
-# [Tên hệ thống] — SE100 · Nhóm __
+# Mượn sách giữa sinh viên — SE100 · Nhóm __
 
 > Hệ thống hỗ trợ sinh viên đăng ký và chia sẻ sách cá nhân để những sinh viên khác có thể tìm kiếm và gửi yêu cầu mượn sách.
 Sinh viên có thể đăng ký sách mình đang sở hữu, tìm kiếm sách và gửi yêu cầu mượn sách từ sinh viên khác.

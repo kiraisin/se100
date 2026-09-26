@@ -1,7 +1,69 @@
 ```mermaid
 classDiagram
-  class TenLopGiDo {
-    +thuocTinh
-    +phuongThuc()
-  }
+    class SinhVien {
+	    - maSV : String
+	    - hoTen : String
+	    - soLanTraTre : int
+	    - biKhoa : boolean
+	    + dangKySach(maSach : String, tenSach : String, tacGia : String) : Sach
+	    + yeuCauMuon(sach : Sach) : YeuCauMuon
+	    + capNhatTraTre() : void
+    }
+
+    class Sach {
+	    - maSach : String
+	    - tenSach : String
+	    - tacGia : String
+	    - chuSoHuu : SinhVien
+	    - trangThai : String
+	    + Sach(maSach : String, tenSach : String, tacGia : String, chuSoHuu : SinhVien)
+	    + capNhatTrangThai(trangThai : String) : void
+	    + kiemTraKhaDung() : boolean
+    }
+
+    class YeuCauMuon {
+	    - maYeuCau : String
+	    - ngayYeuCau : Date
+	    - nguoiMuon : SinhVien
+	    - sach : Sach
+	    - trangThai : String
+	    + YeuCauMuon(nguoiMuon : SinhVien, sach : Sach)
+	    + huyYeuCau() : void
+	    + capNhatTrangThai(trangThai : String) : void
+    }
+
+    class PhieuChoMuon {
+	    - maPhieu : String
+	    - maYeuCau : String
+	    - nguoiCho : SinhVien
+	    - nguoiMuon : SinhVien
+	    - sach : Sach
+	    - ngayGiao : Date
+	    - hanTra : Date
+	    - ngayTra : Date
+	    - trangThai : String
+	    + PhieuChoMuon(yeuCau : YeuCauMuon, hanTra : Date)
+	    + capNhatTrangThai(trangThai : String) : void
+	    + kiemTraTraTre() : boolean
+    }
+
+    class DieuPhoi {
+	    - maDieuPhoi : String
+	    - hoTen : String
+	    + duyetYeuCau(yeuCau : YeuCauMuon) : void
+	    + taoPhieuChoMuon(yeuCau : YeuCauMuon) : PhieuChoMuon
+	    + xacNhanTra(phieu : PhieuChoMuon) : void
+    }
+
+	note for SinhVien "Nếu soLanTraTre >= 3 thì biKhoa = true"
+
+    SinhVien "1" --> "*" Sach : so huu
+    SinhVien "1" --> "*" YeuCauMuon : gui
+    YeuCauMuon "*" --> "1" Sach : yeu cau
+    YeuCauMuon "1" --> "0..1" PhieuChoMuon : tao
+    PhieuChoMuon "*" --> "1" SinhVien : nguoiCho
+    PhieuChoMuon "*" --> "1" SinhVien : nguoiMuon
+    PhieuChoMuon "*" --> "1" Sach : sach
+    DieuPhoi "1" --> "*" YeuCauMuon : xu ly
+    DieuPhoi "1" --> "*" PhieuChoMuon : xu ly giao tra
 ```

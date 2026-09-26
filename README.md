@@ -11,7 +11,7 @@ Hệ thống không cho phép sinh viên mượn sách đang không khả dụng
 | Tên | GitHub | Chủ trì mốc |
 |---|---|---|
 | Huỳnh Thanh Thiên Kim | kiraisin | M1: Yêu cầu |
-| | | M2: Mô hình hoá |
+| Lê Thành Hòa| lthnoname| M2: Mô hình hoá |
 | | | M3–M4: Thiết kế |
 | | | M5: Giao hàng |
 

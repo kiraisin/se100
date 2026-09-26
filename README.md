@@ -1,6 +1,10 @@
 # [Tên hệ thống] — SE100 · Nhóm __
 
-> Xoá dòng này rồi viết 5 dòng mô tả hệ thống: **ai** dùng, để **làm gì**, và điều gì **không được phép** xảy ra. Giảng viên đọc phần này đầu tiên khi duyệt đề tài, nên viết cho rõ.
+> Hệ thống hỗ trợ sinh viên đăng ký và chia sẻ sách cá nhân để những sinh viên khác có thể tìm kiếm và gửi yêu cầu mượn sách.
+Sinh viên có thể đăng ký sách mình đang sở hữu, tìm kiếm sách và gửi yêu cầu mượn sách từ sinh viên khác.
+Chủ sở hữu sách có thể xem và xử lý các yêu cầu mượn đối với sách của mình.
+Hệ thống hỗ trợ theo dõi trạng thái sách và thông tin liên quan đến việc mượn và trả sách.
+Hệ thống không cho phép sinh viên mượn sách đang không khả dụng hoặc thực hiện các thao tác trái với trạng thái hiện tại của sách.
 
 ## Thành viên
 

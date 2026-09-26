@@ -10,7 +10,7 @@ Hệ thống không cho phép sinh viên mượn sách đang không khả dụng
 
 | Tên | GitHub | Chủ trì mốc |
 |---|---|---|
-| | | M1: Yêu cầu |
+| Huỳnh Thanh Thiên  | kiraisin | M1: Yêu cầu |
 | | | M2: Mô hình hoá |
 | | | M3–M4: Thiết kế |
 | | | M5: Giao hàng |

@@ -13,7 +13,7 @@ Hệ thống không cho phép sinh viên mượn sách đang không khả dụng
 | Huỳnh Thanh Thiên Kim | kiraisin | M1: Yêu cầu |
 | Lê Thành Hòa| lthnoname| M2: Mô hình hoá |
 | | | M3–M4: Thiết kế |
-| | | M5: Giao hàng |
+| Đặng Mai Khanh| kaydag| M5: Giao hàng |
 
 ## URL
 

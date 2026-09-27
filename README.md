@@ -30,7 +30,7 @@ phan-tu/      bản phản tư M0–M5 và bảng phản hồi cáo buộc
 ai-log/       bản ghi hội thoại với agent, theo mốc
 src/          mã nguồn
 .github/      workflow kiểm mốc — đừng sửa
-AGENTS.md     ràng buộc kiến trúc cho agent đọc — viết ở M4
+AGENTS.md     ràng buộc kiến trúc cho agent đọc — viết ở M4 
 ```
 
 ## Mốc

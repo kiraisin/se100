@@ -23,7 +23,7 @@
 ## Cấu trúc repo
 
 ```
-docs/         yêu cầu, đặc tả use case, phân tích tác động
+docs/         yêu cầu, đặc tả use case, phân tích tác vuj
 diagrams/     sơ đồ Mermaid (.mmd) — use case, lớp, tuần tự, trạng thái, C4
 adr/          quyết định kiến trúc, mỗi quyết định một tệp
 phan-tu/      bản phản tư M0–M5 và bảng phản hồi cáo buộc

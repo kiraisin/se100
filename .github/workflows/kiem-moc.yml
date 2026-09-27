@@ -1,0 +1,25 @@
+﻿name: Kiểm mốc
+
+on:
+  push:
+    branches:
+      - "moc/**"
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  kiem-moc:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Kiểm mốc
+        run: python scripts/kiem_moc.py

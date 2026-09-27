@@ -53,3 +53,7 @@ Mốc nào cũng kèm `phan-tu/Mn.md` (M0 ≥ 40 từ, còn lại ≥ 120 từ, 
 2. Mở Pull Request vào `main`, tiêu đề `Mn — [tên nhóm]`.
 3. Đợi workflow **Kiểm mốc** chạy. Đỏ thì đọc log, sửa, push lại.
 4. Xanh thì merge. Thời điểm merge là thời điểm nộp.
+
+## Deployment
+
+https://se100.pages.dev/

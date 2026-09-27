@@ -17,7 +17,7 @@ Hệ thống không cho phép sinh viên mượn sách đang không khả dụng
 
 ## URL
 
-- Bản chạy: https://
+- Bản chạy: https://se100.pages.dev/
 - Pipeline: xem tab Actions
 
 ## Cấu trúc repo

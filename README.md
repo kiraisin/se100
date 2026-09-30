@@ -13,7 +13,7 @@
 | Huỳnh Thanh Thiên Kim | kiraisin  | M1: Yêu cầu     |
 | Lê Thành Hòa          | lthnoname | M2: Mô hình hoá |
 | Đặng Mai Khanh        | kaydag    | M3–M4: Thiết kế |
-|                       |           | M5: Giao hàng   |
+| Trần Vinh             | TranVinh23521797 | M5: Giao hàng   |
 
 ## URL
 
